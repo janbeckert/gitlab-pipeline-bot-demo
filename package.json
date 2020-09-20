@@ -1,0 +1,32 @@
+{
+  "name": "lead-message-bot",
+  "version": "1.0.0",
+  "description": "email based lead management",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js",
+    "pretest" : "eslint --ignore-path .gitignore ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.constlab.io/constlab/lead-message-bot.git"
+  },
+  "author": "constlab.io",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mail-notifier": "^0.5.0",
+    "mocha": "^6.2.0",
+    "request": "^2.88.0",
+    "standard": "^14.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
